@@ -20,7 +20,7 @@ export const Logo=styled.p`
 export const ButtonLogin=styled.button`
     position: absolute;
     top:70px;
-    right: 300px;
+    right: 180px;
     width: 183px;
     height:49px;
     border-radius: 100px;
@@ -32,7 +32,7 @@ export const ButtonLogin=styled.button`
 export const Search=styled.div`
    
     position: absolute;
-    right: 530px;
+    right: 400px;
     top:70px;
     border-radius: 50%;
     background-color:#ffffff;
