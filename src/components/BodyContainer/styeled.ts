@@ -19,3 +19,15 @@ export const MyP=styled.p`
     line-height:70px;
     text-align:center;
     `
+export const BoxButtons=styled.div`
+
+
+`
+export const Button1=styled.button`
+padding: 15px 40px;
+background: #6610F2;
+border-radius: 10px;
+width: 227px;
+height:54px;
+
+`
