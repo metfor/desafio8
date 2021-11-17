@@ -29,18 +29,16 @@ export function BodyContainer() {
         <Button2>VER BIBLIOTECA</Button2>
       </BoxButtons>
       <Circle1>
-      <Img
-            src="/../public/memoji2.png"
-            width="150"
-            height="150"
-            alt="memoji2"
-            className="memoji2"
-          />
+        <Img
+          src="/../public/memoji2.png"
+          width="150"
+          height="150"
+          alt="memoji2"
+          className="memoji2"
+        />
       </Circle1>
       <Losango>
-      
         <Up>
-          
           <Img
             src="/../public/memoji1.png"
             width="150"
@@ -51,29 +49,32 @@ export function BodyContainer() {
         </Up>
       </Losango>
       <Triangle>
-        
         <Img
-            src="/../public/memoji5.png"
-            width="150"
-            height="150"
-            alt="memoji5"
-            className="memoji5"
-          />
+          src="/../public/memoji5.png"
+          width="150"
+          height="150"
+          alt="memoji5"
+          className="memoji5"
+        />
       </Triangle>
-      <Square><Img
-            src="/../public/memoji3.png"
-            width="150"
-            height="150"
-            alt="memoji3"
-            className="memoji3"
-          /></Square>
-      <Circle2><Img
-            src="/../public/memoji4.png"
-            width="150"
-            height="150"
-            alt="memoji4"
-            className="memoji4"
-          /></Circle2>
+      <Square>
+        <Img
+          src="/../public/memoji3.png"
+          width="150"
+          height="150"
+          alt="memoji3"
+          className="memoji3"
+        />
+      </Square>
+      <Circle2>
+        <Img
+          src="/../public/memoji4.png"
+          width="150"
+          height="150"
+          alt="memoji4"
+          className="memoji4"
+        />
+      </Circle2>
     </ContainerBody>
   );
 }
