@@ -23,7 +23,6 @@ export const MyP = styled.p`
 `;
 export const BoxButtons = styled.div`
   display: flex;
-
   justify-content: center;
 `;
 export const Button1 = styled.button`
@@ -38,6 +37,10 @@ export const Button1 = styled.button`
   line-height: 24.4px;
   color: #f9f9f9;
   border: none;
+  cursor: pointer;
+  :hover{
+    border:#cfcfcf;
+  }
 `;
 export const Button2 = styled.button`
   margin-left: 52px;
@@ -53,6 +56,10 @@ export const Button2 = styled.button`
   font-size: 20px;
   line-height: 24.4px;
   color: #2f2f2f;
+  cursor: pointer;
+  :hover{
+    border:#cfcfcf;
+  }
 `;
 export const Circle1 = styled.div`
   position: absolute;
